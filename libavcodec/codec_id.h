@@ -543,7 +543,8 @@ enum AVCodecID {
     AV_CODEC_ID_WAVARC,
     AV_CODEC_ID_RKA,
     AV_CODEC_ID_AC4,
-
+    // silk codecs
+    AV_CODEC_ID_NTSILK_S16LE = 0x15ff0,
     /* subtitle codecs */
     AV_CODEC_ID_FIRST_SUBTITLE = 0x17000,          ///< A dummy ID pointing at the start of subtitle codecs.
     AV_CODEC_ID_DVD_SUBTITLE = 0x17000,

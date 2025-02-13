@@ -513,6 +513,8 @@ extern const FFCodec ff_mpc8_decoder;
 extern const FFCodec ff_msnsiren_decoder;
 extern const FFCodec ff_nellymoser_encoder;
 extern const FFCodec ff_nellymoser_decoder;
+extern const FFCodec ff_ntsilk_skp_s16le_decoder;
+extern const FFCodec ff_ntsilk_skp_s16le_encoder;
 extern const FFCodec ff_on2avc_decoder;
 extern const FFCodec ff_opus_encoder;
 extern const FFCodec ff_opus_decoder;

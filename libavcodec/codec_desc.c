@@ -3413,7 +3413,14 @@ static const AVCodecDescriptor codec_descriptors[] = {
         .long_name = NULL_IF_CONFIG_SMALL("AC-4"),
         .props     = AV_CODEC_PROP_LOSSY,
     },
-
+    // silk codecs
+    {
+        .id        = AV_CODEC_ID_NTSILK_S16LE,
+        .type      = AVMEDIA_TYPE_AUDIO,
+        .name      = "ntsilk_s16le",
+        .long_name = NULL_IF_CONFIG_SMALL("NTSilk (s16le)"),
+        .props     = AV_CODEC_PROP_LOSSY,
+    },
     /* subtitle codecs */
     {
         .id        = AV_CODEC_ID_DVD_SUBTITLE,
